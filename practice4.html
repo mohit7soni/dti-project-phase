@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Mohit Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .cards-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+        }
+        .card {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container navbar">
+        <header>
+            <div class="logo">
+                <h6> Dr.Savita | Mohit Soni | Sachin Gautam | Ahmed Nadeem</h6>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Work</a></li>
+                    <li><a href="#work">Details</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="container main-info-section">
+        <div class="text">
+            <h1>
+                <span>S</span>
+                <span class="m-left">t</span>
+                <span class="m-left">o</span>
+                <span class="m-left">c</span>
+                <span class="m-left">k M</span>
+                <span class="m-left">a</span>
+                <span class="m-left">r</span>
+                <span class="m-left">k</span>
+                <span class="m-left">e</span>
+                <span class="m-left">t P</span>
+                <span class="m-left">r</span>
+                <span class="m-left">e</span>
+                <span class="m-left">d</span>
+                <span class="m-left">i</span>
+                <span class="m-left">c</span>
+                <span class="m-left">t</span>
+                <span class="m-left">i</span>
+                <span class="m-left">o</span>
+                <span class="m-left">n</span>
+                <br>
+                <span>U</span>
+                <span class="m-left">s</span>
+                <span class="m-left">i</span>
+                <span class="m-left">n</span>
+                <span class="m-left">g</span>
+                <span class="name">S</span>
+                <span class="m-left name">e</span>
+                <span class="m-left name">n</span>
+                <span class="m-left name">t</span>
+                <span class="m-left name">i</span>
+                <span class="m-left name">m</span>
+                <span class="m-left name">e</span>
+                <span class="m-left name">n</span>
+                <span class="m-left name">t</span>
+                <span class="m-left name">a</span>
+                <span class="m-left name">l</span>
+                <span class="m-left name"></span>
+                <span class="name">A</span>
+                <span class="m-left name">n</span>
+                <span class="m-left name">a</span>    
+                <span class="m-left name">l</span>
+                <span class="m-left name">y</span>
+                <span class="m-left name">s</span>
+                <span class="m-left name">i</span>
+                <span class="m-left name">s</span>        
+                <br>
+            </h1>
+            <p>STOCK PREDICTION</p>
+            <a href="#contact">About Us</a>
+        </div>
+        <div class="profile-image">
+            <!-- <img src="{{url_for('static',filename='img/profile-image.png')}}" alt=""> -->
+        </div>
+    </div>
+
+    <div class="container about" id="about">
+        <h1>Project Details</h1>
+        <div class="about-me-info">
+            <p>
+                Using Sentiment Analysis through Natural Language Processing (NLP) to Analyze and Predict Stock Market Trends. 
+                Predicting Stock Market Trends through Sentiment Analysis using Natural Language Processing (NLP): A Comparative Study of Machine Learning Algorithms.
+            </p>
+            <p>
+                This project, conducted by Mohit Soni under the guidance of Dr. Savita, aims to understand and apply Sentiment Analysis as a tool for predicting stock market trends. Sentiment Analysis is an analytical method that computers use to interpret natural language and determine whether a message is positive, neutral, or negative. In this project, Sentiment Analysis was used to assess whether news headlines might lead to an increase or decrease in stock prices. By doing so, the project extracted the 'emotional' status of the data, which is the essence of sentiment analysis.
+            </p>
+            <p>
+                With advancements in natural language processing (NLP) and sentiment analysis, it's now possible to predict stock market trends by analyzing public opinion. Sentiment analysis, a subfield of NLP, can quickly identify the tone of reports—whether positive, negative, or litigious, etc. Analysis of sentiment from news articles and social media posts provides valuable insights for investors. However, the accuracy of sentiment analysis can be affected by external influences, and NLP algorithms can sometimes struggle to identify the sentiment of a piece of text, particularly if it's sarcastic or ironic. Despite these challenges, state-of-the-art NLP models, including BERT-based models, were designed, implemented, and tested to predict stock price movements in this project.
+            </p>
+            <p>
+                The project also involved comparing several machine learning and deep learning-based models, such as LSTM, SVM, and GRU, to predict stock prices. The analysis showed that sentiment from social media and news articles could significantly improve prediction results. The best-performing model in the study was a fine-tuned version of BERT, known as FinBERT, which was used for sentiment analysis of financial text. The sentiment extracted from news headlines, when combined with historical prices, led to the most accurate stock price predictions.
+            </p>
+            <p>
+                Mohit Soni, as a web developer, was also responsible for integrating the analytical models into a web platform, making it accessible and user-friendly for investors and researchers alike.
+            </p>
+            
+        </div>
+        <img src="{{url_for('static',filename='img/dotted-shape.png')}}" alt="">
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <div class="container skills" id="skills">
+        <h1>Tools & Env</h1>
+        <div class="skills-info">
+            <p>
+                We used Flask Notebook which is an open-source web application that allows you to create backend and share documents that contain live code, equations, visualizations and explanatory text. We perform data cleaning and transformation, statistical modeling and machine learning in this environment.
+                <br>We had worked with the logic and working of  model in this project to train our data.
+                <br>
+                * javascript
+                <br>
+                * Flask
+            </p>
+        </div>
+        <img src="img/dotted-shape.png" alt="">
+    </div>
+
+    <div class="container work" id="work">
+        <h1>Work</h1>
+        <div class="work-category">
+            <button id="designing" class="active" onclick="showRequiredCategory(this)">Machine Learning</button>
+        </div>
+        <br>
+        <br>
+
+        <div class="cards-container"></div>
+        
+        <br>
+        <div class="button-container">
+            <form action="{{ url_for('predict')}}" method="post">
+                <div class="work-category">
+                    <button type="submit" id="designing" class="active">Predict Tomorrow's Result</button>
+                </div>
+            </form>
+<div class="all-stocks">
+            <a href="https://www.tradingview.com/markets/stocks-usa/market-movers-all-stocks/" target="_blank">
+                <button id="all-stocks" class="active">All Stocks Prediction</button>
+            </a>
+        </div>
+        </div>
+    </div>
+
+    <br><br>
+    <div class="container contact" id="contact">
+        <h1>About Us</h1>
+        <div class="about-section">
+          <p>We are Coders and Developers from MANAV RACHNA INTERNATIONAL INSTITUTE FOR RESEARCH AND STUDIES.</p>
+          <p>We are guided by Professor DR.SAVITA<DR class="SAVITA"></DR></p>
+
+
+</div>  
+        <div class="about-section">
+            <div>
+            <p>We are Coders and Developers from MANAV RACHNA INTERNATIONAL INSTITUTE OF RESEARCH AND STUDIES, working on this project under our professor's guidance</p>
+            <div class="row">
+                <div class="column">
+                    <h3>Mohit Soni</h3>
+                    <h4>Team Leader</h4>
+                    <p>React Developer, Web Developer</p>
+
+                    <p class="ff">ROLL NO:- 1/22/FET/BCS/070</p>
+                   <p class="ff">mohit7soni2003@gmail.com</p>
+                </div>
+                <div class="column">
+                    <h3>Sachin Gautam</h3>
+                    <p>Data Scientist, Machine Learning Expert</p>
+                    <p class="title">Team Member</p>
+                    <p class="ff">ROLL NO: 1/22/FET/BCS/093</p>
+                    <p class="ff">X</p>
+       
+                </div>
+                <div class="column">
+                    <h3>Ahmed Nadeem</h3>
+                    <p>Backend Developer, Database Administrator</p>
+                    <h2 class="ff">AHMED NADEEM</h2>
+                    <p class="title">Team Member</p>
+                    <p class="ff">ROLL NO: 1/22/FET/BCS/078</p>
+                    <p class="ff">X</p>
+                  
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <footer>
+        <p>
+            Mohit Soni Website 2023
+        </p>
+    </footer>
+
+    <script>
+
+        const companyCodes = [
+            { name: "Apple", code: "AAPL" },
+            { name: "Google", code: "GOOGL" },
+            { name: "Microsoft", code: "MSFT" },
+            { name: "Amazon", code: "AMZN" },
+            { name: "Tesla", code: "TSLA" },
+            { name: "Facebook", code: "META" },
+            { name: "Netflix", code: "NFLX" },
+            { name: "Nvidia", code: "NVDA" },
+            { name: "Adobe", code: "ADBE" },
+            { name: "Twitter", code: "TWTR" }
+        ];
+
+        const container = document.querySelector('.cards-container');
+
+        companyCodes.forEach(company => {
+            const card = document.createElement('div');
+            card.className = 'card';
+
+            const companyName = document.createElement('h3');
+            companyName.textContent = company.name;
+            card.appendChild(companyName);
+
+            const widgetContainer = document.createElement('div');
+            widgetContainer.className = 'tradingview-widget-container';
+            card.appendChild(widgetContainer);
+
+            const widgetContainerInner = document.createElement('div');
+            widgetContainerInner.className = 'tradingview-widget-container__widget';
+            widgetContainer.appendChild(widgetContainerInner);
+
+            const script = document.createElement('script');
+            script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js';
+            script.async = true;
+            script.innerHTML = JSON.stringify({
+                symbols: [[company.code]],
+                chartOnly: true,
+                width: "100%",
+                height: "100%",
+                locale: "en",
+                colorTheme: "light",
+                gridLineColor: "rgba(42, 46, 57, 0.06)",
+                trendLineColor: "#2962FF",
+                fontColor: "#787B86",
+                underLineColor: "rgba(41, 98, 255, 0.3)",
+                isTransparent: false,
+                autosize: true,
+                container_id: `tradingview_${company.code}`
+            });
+            widgetContainerInner.appendChild(script);
+
+            container.appendChild(card);
+        });
+
+
+
+
+
+
+
+    //     document.getElementById('predictButton').addEventListener('click', function() {
+    // fetch('/predict', {
+    //     method: 'POST',
+    // })
+    // .then(response => response.json())
+    // .then(data => {
+    //     document.getElementById('predictionResult').innerHTML = 
+    //         `<h3>Stock Predictions:</h3><pre>${JSON.stringify(data, null, 2)}</pre>`;
+    // })
+    // .catch(error => {
+    //     console.error('Error:', error);
+    // });
+
+    </script>
+</body>
+</html>
